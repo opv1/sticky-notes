@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #eee;
+  width: 200px;
+
+  &__textarea {
+    outline: none;
+    border: none;
+    padding: 10px;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    scrollbar-color: rgba(113, 113, 114, 0.356) transparent;
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border: 1px solid #eee;
+      border-radius: 20px;
+      background-color: rgba(113, 113, 114, 0.356);
+    }
+  }
+
+  &__button {
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    background: #fff27f;
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+      background: #ff6347;
+    }
+
+    &:disabled {
+      background: #eee;
+    }
+  }
+}
