@@ -5,7 +5,7 @@
 
 ## Description
 
-Stack: Node + React + MobX + TypeScript
+Stack: Node.js + React + MobX + TypeScript
 
 ## [See the project](https://sticky-notes-opv1.herokuapp.com)
 
