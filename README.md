@@ -7,7 +7,7 @@
 
 Stack: Node + React + MobX + TypeScript
 
-## [See the project]()
+## [See the project](https://sticky-notes-opv1.herokuapp.com)
 
 ## Setup
 
