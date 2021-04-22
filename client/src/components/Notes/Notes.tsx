@@ -1,7 +1,8 @@
 import React from 'react'
+import { useAppStore } from 'context'
 import Form from 'components/Form/Form'
 import Note from 'components/Note/Note'
-import { useAppStore } from 'context'
+import 'components/Notes/Notes.scss'
 
 const Notes: React.FC = () => {
   const { notesStore } = useAppStore()
